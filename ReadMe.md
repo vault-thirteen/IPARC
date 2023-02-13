@@ -27,8 +27,8 @@ use.
 
 The source file was slightly modified in following ways:  
 1. Lines with empty country were standardized for the reader.
-2. Comma symbol may not be removed while some country names contain them and 
-   such a removal would break the CSV format. 
+2. Double quote symbol may not be removed while some country names contain 
+   commas and such a removal would break the CSV format. 
 
 **Last update time of the database**: 2023-02-12.
 
