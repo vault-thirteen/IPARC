@@ -4,9 +4,9 @@ import (
 	"errors"
 	"math"
 
-	"github.com/vault-thirteen/IPARC/ipa"
 	"github.com/vault-thirteen/IPARC/ipad"
 	"github.com/vault-thirteen/IPARC/ipad/country"
+	"github.com/vault-thirteen/auxie/IPA"
 )
 
 const (

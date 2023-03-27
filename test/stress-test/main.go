@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/vault-thirteen/IPARC/common/helper"
-	"github.com/vault-thirteen/IPARC/ipa"
 	"github.com/vault-thirteen/IPARC/ipar"
 	"github.com/vault-thirteen/IPARC/iparc"
+	"github.com/vault-thirteen/auxie/IPA"
 )
 
 func main() {

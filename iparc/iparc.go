@@ -7,10 +7,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/vault-thirteen/IPARC/ipa"
 	"github.com/vault-thirteen/IPARC/ipad"
 	"github.com/vault-thirteen/IPARC/ipad/country"
 	"github.com/vault-thirteen/IPARC/ipar"
+	"github.com/vault-thirteen/auxie/IPA"
 	"github.com/vault-thirteen/auxie/as"
 	"github.com/vault-thirteen/errorz"
 )
