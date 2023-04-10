@@ -27,10 +27,9 @@ use.
 
 The source file was slightly modified in following ways:  
 1. Lines with empty country were standardized for the reader.
-2. Double quote symbol may not be removed while some country names contain 
-   commas and such a removal would break the CSV format. 
+2. Double quotes were removed from there where they were not necessary.
 
-**Last update time of the database**: 2023-03-07.
+**Last update time of the database**: 2023-04-10.
 
 ## Usage
 
