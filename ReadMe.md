@@ -5,7 +5,7 @@
 This is a library to work with ranges of IP addresses.
 
 This library enables to read a database of IP addresses stored in a CSV file 
-and compressed as a ZIP file into an object in memory (RAM) and make fast 
+and compressed as a _ZIP_ file into an object in memory (RAM) and make fast 
 search queries to this database. 
 
 ### Details
@@ -16,7 +16,7 @@ range.
 
 Countries are represented by standardized two-letter codes and names in English 
 language. Each IP address range stores a pointer to an object, called 'struct' 
-in Go programming language. Each data object may have various fields which are 
+in _Go_ programming language. Each data object may have various fields which are 
 very easy to expand as the code is written in such a manner which allows very 
 easy additions of new classes or types. 
 

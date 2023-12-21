@@ -12,7 +12,7 @@ import (
 	"github.com/vault-thirteen/IPARC/ipar"
 	"github.com/vault-thirteen/auxie/IPA"
 	"github.com/vault-thirteen/auxie/as"
-	"github.com/vault-thirteen/errorz"
+	ae "github.com/vault-thirteen/auxie/errors"
 )
 
 const (
@@ -83,7 +83,7 @@ func (col *IPAddressV4RangeCollection) fillWithDataFromCsvFile(filePath string) 
 	defer func() {
 		derr := f.Close()
 		if derr != nil {
-			err = errorz.Combine(err, derr)
+			err = ae.Combine(err, derr)
 		}
 	}()
 
