@@ -4,7 +4,7 @@
 
 This is a library to work with ranges of IP addresses.
 
-This library enables to read a database of IP addresses stored in a CSV file 
+This library enables to read a database of IP addresses stored in a _CSV_ file 
 and compressed as a _ZIP_ file into an object in memory (RAM) and make fast 
 search queries to this database. 
 
@@ -37,7 +37,7 @@ The source file was slightly modified in following ways:
 1. Lines with empty country were standardized for the reader.
 2. Double quotes were removed from there where they were not necessary.
 
-**Last update time of the database**: 2024-02-04.
+**Last update time of the database**: 2024-07.
 
 ## Usage
 
