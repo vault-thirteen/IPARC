@@ -37,7 +37,7 @@ The source file was slightly modified in following ways:
 1. Lines with empty country were standardized for the reader.
 2. Double quotes were removed from there where they were not necessary.
 
-**Last update time of the database**: 2024-09.
+**Last update time of the database**: 2025-03.
 
 ## Usage
 
